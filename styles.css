@@ -1,0 +1,38 @@
+
+h1 { 
+    text-align: center;
+}
+
+.weather-container {
+    background: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    width: 350 px;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #353b48, #82ccdd);
+    font-family: Arial, sans-serif;
+
+}
+
+
+.imput-group {
+    width: 80%;
+    margin-bottom: 10px;
+    text-align: left;
+
+}
+
+.btn-primary {
+    color: black;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 6em;
+    cursor: pointer;
+    padding: 1em 1em;
+    font-size: 15px;
+    font-weight: 300;
+
+}
