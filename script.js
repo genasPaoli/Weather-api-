@@ -21,8 +21,14 @@ async function handleFetchClick(){
     const latitude = document.getElementById("latitude-input").value;
     const longitude = document.getElementById("longitude-input").value;
     const currentTemperature = document.getElementById("temp-display");
+    const currentWind = document.getElementById("wind-display");
 
     const currentWeather = await fetchWeatherData(latitude, longitude);
     currentTemperature.textContent = currentWeather.temperature;
+    currentWind.textContent = currentWeather.windspeed ;
+
+    
+
+    
 
 }
