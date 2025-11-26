@@ -4,15 +4,14 @@ h1 {
 }
 
 .weather-container {
-    background: blanchedalmond;
     display: flex;
     flex-direction: column;
-    width: 350 px;
+    width: 250px;
     align-items: center;
     padding: 50px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(135deg, #353b48, #82ccdd);
+    background: linear-gradient(135deg, #353b48, #82ccdd, 0);
     font-family: Arial, sans-serif;
 
 }
@@ -26,13 +25,24 @@ h1 {
 }
 
 .btn-primary {
-    color: black;
-    background-color: aliceblue;
+    color: white;
+    background: linear-gradient(to bottom, #343a40, #6c757d);iceblue;
     border: none;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     border-radius: 6em;
     cursor: pointer;
     padding: 1em 1em;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 250;
 
+}
+
+body{ 
+    background-image: url('arbolitos.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 }
