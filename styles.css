@@ -17,29 +17,28 @@ h1 {
 }
 
 
-.imput-group {
+.input-group {
     width: 80%;
     margin-bottom: 10px;
     text-align: left;
-
 }
 
 .btn-primary {
     color: white;
-    background: linear-gradient(to bottom, #343a40, #6c757d);iceblue;
+    background-color: #011806;
     border: none;
-    transition: all 0.2s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    border-radius: 6em;
+    border-radius: 5em;
     cursor: pointer;
-    padding: 1em 1em;
+    padding: 0.5rem;
     font-size: 15px;
     font-weight: 250;
-
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
 }
 
 body{ 
-    background-image: url('arbolitos.jpg');
+    background-image: url('/src/imgs/bosque.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -48,6 +47,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    color: white;
     
 }
 
@@ -55,7 +55,24 @@ input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+    
+    
 }
 input[type="number"] {
     -moz-appearance: textfield;
 }
+
+input{
+    border-radius: 5rem;
+    align-items: center;
+    max-width: 230px;
+     padding: 10px 22px 11px 12px;
+    border: none;
+    background-color: #343a40;
+    color: white;
+        font-size: 15px;
+    font-weight: 250;
+
+}
+
+
